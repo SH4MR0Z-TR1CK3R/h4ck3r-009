@@ -4,7 +4,7 @@
 import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
-os.system('xdg-open https://www.facebook.com/SHAMROZ.KING.BRAND')
+import os
 import random
 import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
