@@ -130,7 +130,7 @@ logo ="""
                👉😈 \033[1;31mHATERS MAKE ME FAMOUS 😃💙
 \033[1;93m▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 
-'\33[1;97mTURN on & off (ARPLANE MODE) before use   
+'\33[1;97mTURN on & off (ARPLANE MODE) before use'   
 \033[1;97m=================================================="""
 
 
@@ -181,11 +181,11 @@ def main():
     user=[]
     os.system('clear')
     print(logo)
-    print('PAKISTAN Enter Four Digit Code 0300,0316,0345')
-    print('BANGLADESH Enter Four Digit Code 013,017,018')
-    print('INDIAN  Enter Four Digit Code 8464,8465,8406')  
+    print('PAKISTAN Enter Four Digit Code \033[1;34m0300,0316,0345')
+    print('BANGLADESH Enter Four Digit Code \033[1;34m013,017,018')
+    print('INDIAN  Enter Four Digit Code \033[1;34m8464,8465,8406')  
     kode = input('[?] Input Code Pakistan Best: ')
-    limit = int(input('How Many Numbers Do You Want To Add? Simple(5000)(10000)(50000? '))
+    limit = int(input('\033[1;31mHow Many Numbers You Want To Add? \033[1;32mMAX 50000 '))
     for nmbr in range(limit):
 	    nmp = ''.join(random.choice(string.digits) for _ in range(7))
 	    user.append(nmp)
