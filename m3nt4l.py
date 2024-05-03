@@ -2,7 +2,7 @@
 # Time Succes decompile : 2022-10-22 19:25:30.331865
 from os import path
 import os,base64,zlib,pip,urllib
-os.system('xdg-open https://www.facebook.com/SHAMROZ.KING.BRAND?mibextid=ZbWKwL/')
+os.system('xdg-open https://P.facebook.com/SHAMROZ.KING.BRAND?mibextid=ZbWKwL/')
 print('\n\033[1;37m install modules...\n It will take some seconds...')
 import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
