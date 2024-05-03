@@ -178,9 +178,9 @@ def main():
     user=[]
     os.system('clear')
     print(logo)
-    print('PAKISTAN Enter Four Digit Code [92301] [92302] [92305] [92306]')
-    print('BANGLADESH Enter Four Digit Code [88013] [88017] [88018] [88016]')
-    print('INDIAN  Enter Four Digit Code [918464] [918465] [918406] [917965]')  
+    print('PAKISTAN Enter Four Digit Code 0300,0316,0345')
+    print('BANGLADESH Enter Four Digit Code 013,017,018')
+    print('INDIAN  Enter Four Digit Code 8464,8465,8406')  
     kode = input('[?] Input Code Pakistan Best: ')
     limit = int(input('How Many Numbers Do You Want To Add? Simple(5000)(10000)(50000? '))
     for nmbr in range(limit):
