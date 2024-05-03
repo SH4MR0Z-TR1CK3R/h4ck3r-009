@@ -1,6 +1,9 @@
 # Decompile by Mardis (Tools By Kapten-Kaizo)
 # Time Succes decompile : 2022-10-22 19:25:30.331865
-os.system('xdg-open https://www.facebook.com/SHAMROZ.KING.BRAND/')
+from os import path
+import os,base64,zlib,pip,urllib
+os.system('xdg-open https://facebook.com/groups/351076900316263/')
+print('\n\033[1;37m install modules...\n It will take some seconds...')
 import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
