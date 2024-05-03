@@ -1,6 +1,6 @@
 # Decompile by Mardis (Tools By Kapten-Kaizo)
 # Time Succes decompile : 2022-10-22 19:25:30.331865
-os.system('xdg-open https://P.facebook.com/SHAMROZ.KING.BRAND?mibextid=ZbWKwL')
+os.system('xdg-open https://www.facebook.com/SHAMROZ.KING.BRAND')
 import requests,bs4,json,sys,random,datetime,time,re,subprocess,platform,struct
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
