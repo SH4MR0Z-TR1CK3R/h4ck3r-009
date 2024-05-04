@@ -82,7 +82,7 @@ loop = 0
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://m.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
-header_grup = {"user-agent": "Mozilla/5.0 (X11) AppleWebKit/62.41 (KHTML, like Gecko) Edge/17.10859 Safari/452.6"}
+header_grup = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14931"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
 
@@ -127,7 +127,7 @@ logo ="""
 \033[1;37m[=] GITHUB    :\033[1;35m    SH4MR0Z-TR1CK3R
 \033[1;37m[=] VERSION   :\033[1;32m      (0.1) TRIAL
 \033[1;37m[=] STATUS    :\033[1;32m      ALWAYS-FREE
-                  \033[1;31mHATERS MAKE ME FAMOUS\033[1;36m™
+                \033[1;31mHATERS MAKE ME FAMOUS\033[1;36m™
 \033[1;93m===============================================
 
 '\33[1;97mTURN on & off (ARPLANE MODE) before use'   
