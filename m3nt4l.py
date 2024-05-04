@@ -124,10 +124,10 @@ logo ="""
 \033[1;37m[=] TEAM      :\033[1;36m  CRIMINALS MAFIA GANG
 \033[1;37m[=] MAKER     :\033[1;35m   SHAMROZ-KING-BRAND
 \033[1;37m[=] FACEBOOK  :\033[1;35m    SHAMROZ TRICKER
-\033[1;37m[=] GITHUB    :\033[1;35m        SH4MR0Z-TR1CK3R
-\033[1;37m[=] VERSION   :\033[1;32m               (0.1) TRIAL
-\033[1;37m[=] STATUS    :\033[1;32m               ALWAYS-FREE
-                      \033[1;31mHATERS MAKE ME FAMOUS\033[1;36m™
+\033[1;37m[=] GITHUB    :\033[1;35m    SH4MR0Z-TR1CK3R
+\033[1;37m[=] VERSION   :\033[1;32m      (0.1) TRIAL
+\033[1;37m[=] STATUS    :\033[1;32m      ALWAYS-FREE
+                  \033[1;31mHATERS MAKE ME FAMOUS\033[1;36m™
 \033[1;93m===============================================
 
 '\33[1;97mTURN on & off (ARPLANE MODE) before use'   
