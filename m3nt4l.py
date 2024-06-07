@@ -88,7 +88,7 @@ done = False
 
 ugen=[]
 for x in range(100):
-    aa='Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 9; itel L6501 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36'
+    aa='Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 9; itel L6501 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'
     b=random.choice(['6','7','8','9','10','11','12'])
     c=' en-us; GT-'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -124,8 +124,8 @@ logo ="""
 \033[1;37m[=] TEAM      :\033[1;36m  CRIMINALS MAFIA GANG
 \033[1;37m[=] MAKER     :\033[1;35m   SHAMROZ-KING-BRAND
 \033[1;37m[=] FACEBOOK  :\033[1;35m    SHAMROZ TRICKER
-\033[1;37m[=] GITHUB    :\033[1;35m    SH4MR0Z-TR1CK3R
-\033[1;37m[=] VERSION   :\033[1;32m      (0.1) TRIAL
+\033[1;37m[=] GITHUB    :\033[1;33m    SH4MR0Z-TR1CK3R
+\033[1;37m[=] VERSION   :\033[1;32m      (0.2) TRIAL
 \033[1;37m[=] STATUS    :\033[1;32m      ALWAYS-FREE
                 \033[1;31mHATERS MAKE ME FAMOUS\033[1;36m™
 \033[1;93m===============================================
